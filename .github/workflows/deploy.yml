@@ -33,9 +33,6 @@ jobs:
       - name: Install Hexo CLI locally
         run: npm install hexo-cli --save-dev
 
-      - name: Verify Hexo installation
-        run: hexo -v
-
       # Deploy hexo blog website.
       - name: Deploy
         id: deploy
