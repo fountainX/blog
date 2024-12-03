@@ -22,7 +22,7 @@ menus_title:
   # about: ABOUT
 # 导航 （不建议修改）
 menus:
-  home: ../#/
+  home: ../front/#/
   # archive: /archives
   # categories: /categories
   # tags: /tags
@@ -35,7 +35,7 @@ logo: image/logo.png
 icon: image/favicon.ico
 # 每个页面的展示的图标和一句话
 headers:
-  home: { message: '首页这里应该有一句话，你想想写点什么？', icon: 'image/logo.png' }
+  home: { message: '记录我们公司的点滴', icon: 'image/logo.png' }
   archives: {
       # 这里会替换掉两个变量{ year 年，number 总数 } 当然也可以不写这两个变量
       message: '居然用了 year 年一共才写了 number 篇文章!',
